@@ -2,6 +2,8 @@ import numpy as np
 import argparse
 import matplotlib.pyplot as plt
 import cv2
+import warnings
+warnings.filterwarnings("ignore")
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten
 from tensorflow.keras.layers import Conv2D
